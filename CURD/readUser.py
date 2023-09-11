@@ -1,8 +1,8 @@
 # Read 
 # In SQL called "SELECT"
 
-from model import User
-from model import app, db
+from CURD.model import User
+from CURD.model import app, db
 
 def read_all_user():
     return User.query.all()

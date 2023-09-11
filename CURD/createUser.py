@@ -1,8 +1,8 @@
 # Create 
 # In SQL called 'INSERT'
 
-from model import User
-from model import app, db
+from CURD.model import User
+from CURD.model import app, db
 
 def create_user():
     admin = User('admin', 'admin@example.com')
